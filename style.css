@@ -1,0 +1,26 @@
+div{
+    background-color:#22148f;
+    border-color: none;
+    width: 400px;
+    height: 80px;
+    position: absolute;
+    top: 50px;
+    right: 0px;
+}
+
+h1{
+   
+    color: #22148f;
+    width: 400px;
+    position: absolute;
+    left: 5%;
+    font-family: baskervill;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: left;
+    font-size:100px;
+    letter-spacing:-2.5px;
+    text-transform: uppercase;
+    line-height: 72px;
+    
+}
