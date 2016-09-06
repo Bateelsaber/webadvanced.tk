@@ -1,3 +1,6 @@
+body {
+    background-color: #fef1ed;
+}
 h1{
     color: #22148f;
     width: 400px;
@@ -18,25 +21,8 @@ div{
     border-color: none;
     height: 67px;
     position: absolute;
-    right: -30px;
 }
 
-.one{
-  width: 920px; 
-  top: 147.5px;
-}
-.two{
-    width: 850px; 
-    top: 240px;   
-}
-.three{
-    width: 780px; 
-    top: 332.5px;    
-}
-.four{
-     width: 710px; 
-    top: 425px;   
-}
 
 h2{
     position: absolute;
@@ -64,4 +50,56 @@ h2{
 .hvr-skew:hover, .hvr-skew:focus, .hvr-skew:active {
   -webkit-transform: skew(-10deg);
   transform: skew(-10deg);
+}
+
+@media (min-width: 900px){
+   .one{
+  width: 920px; 
+  top: 147.5px;
+
+}
+.two{
+    width: 850px; 
+    top: 240px; 
+    left:5%;
+}
+.three{
+    width: 780px; 
+    top: 332.5px;
+    left:10%;
+}
+.four{
+     width: 710px; 
+    top: 425px;
+    left:15%;
+} 
+.margin{
+    margin-left: 380px;
+}
+}
+
+@media (max-width: 900px){
+   .one{
+  width: 920px; 
+  top: 247.5px;
+
+}
+.two{
+    width: 850px; 
+    top: 340px; 
+    left:5%;
+}
+.three{
+    width: 780px; 
+    top: 432.5px;
+    left:10%;
+}
+.four{
+     width: 710px; 
+    top: 525px;
+    left:15%;
+}
+.margin {
+    margin-left: 180px;
+}
 }
