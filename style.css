@@ -1,15 +1,4 @@
-div{
-    background-color:#22148f;
-    border-color: none;
-    width: 400px;
-    height: 80px;
-    position: absolute;
-    top: 50px;
-    right: 0px;
-}
-
 h1{
-   
     color: #22148f;
     width: 400px;
     position: absolute;
@@ -19,8 +8,60 @@ h1{
     font-weight: bolder;
     text-align: left;
     font-size:100px;
-    letter-spacing:-2.5px;
+    letter-spacing:-3px;
     text-transform: uppercase;
     line-height: 72px;
-    
+}
+
+div{
+    background-color:#22148f;
+    border-color: none;
+    height: 67px;
+    position: absolute;
+    right: -30px;
+}
+
+.one{
+  width: 920px; 
+  top: 147.5px;
+}
+.two{
+    width: 850px; 
+    top: 240px;   
+}
+.three{
+    width: 780px; 
+    top: 332.5px;    
+}
+.four{
+     width: 710px; 
+    top: 425px;   
+}
+
+h2{
+    position: absolute;
+    left:5%;
+    color: white;
+    font-family: arial;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.hvr-skew {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-skew:hover, .hvr-skew:focus, .hvr-skew:active {
+  -webkit-transform: skew(-10deg);
+  transform: skew(-10deg);
 }
