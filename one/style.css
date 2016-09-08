@@ -1,0 +1,181 @@
+body{
+    background-color: #f8f5f3;
+    width: 100%;
+    height: auto;
+}
+h1{
+    width: 100%;
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-size: 25px;
+    color: black;
+    font-weight: 500;
+    position: absolute;
+    line-height: -210px;
+    top: 35px;
+  
+}
+
+.top{
+    margin-top: 20%;
+}
+
+a:hover {
+   color: grey;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h2{
+    width: 100%;
+    position: absolute;
+    left:-36px;
+    margin-top: 20%;
+    font-family: Helvetica Neue;
+    font-size: 16px;
+    color: black;
+    letter-spacing: 1px;
+    font-weight: normal;
+    line-height: -210px;
+}
+
+h3{
+     width: 50%;
+    position: relative;
+    text-align: left;
+    margin-top: 20%;
+    font-family: Helvetica Neue;
+    font-size: 16px;
+    color: black;
+    letter-spacing: 0.8px;
+    font-weight: normal;
+    line-height: 21px;
+}
+
+div{
+    width: 50%;
+    position: relative;
+    float: inherit;
+    margin-left: 15%;
+    margin-right: 10%;
+}
+
+.center {
+ text-align: center;
+}
+
+.map{
+    width: 80%;
+    margin-top: -140px;
+    position: absolute;
+}
+.letters{
+    position: relative;
+    float: right;
+    margin-right: 15%;
+    margin-top: -15%;
+}
+
+#my-img:hover {
+    content: url('greyletters.png');
+      position: relative;
+    float: right;
+    margin-right: 15%;
+    margin-top: -15%;
+}
+
+.bsm {
+    float:right;
+    margin-top: 7%;
+    margin-right: 15%;
+}
+
+button{
+	width: 30px;
+	margin-left: 20px;
+	margin-top: 20px;
+	position: absolute;
+	text-decoration: none;
+	border:none;
+}
+
+h4{
+    width: 25%;
+    position: absolute;
+      margin-top: 14%;
+    margin-left: 15%;
+    text-align: left;
+    font-family: Helvetica Neue;
+    font-size: 16px;
+    color: black;
+    letter-spacing: 0.8px;
+    font-weight: normal;
+    line-height: 21px;
+}
+
+.characters{
+    float: right;
+   margin-right: 10%;
+    margin-top: 5%;
+   
+}
+
+.nuqta{
+    float: right;
+   margin-right: 20%;
+    margin-top: 10%;
+   
+}
+
+.pattern{
+    float: right;
+   margin-right: 10%;
+    margin-top: 1%;
+   
+}
+h5{
+    width: 25%;
+    height: auto;
+    float: left;
+     position: absolute;
+     margin-top: 10%;
+    margin-left: 15%;
+    text-align: left;
+  font-family: Helvetica Neue;
+    font-size: 22px;
+    color: black;
+    font-weight: 500;
+    line-height: -210px;
+}
+
+.sh1 {
+   float: right;
+   margin-right: 20%;
+    margin-top: 5%;
+}
+
+#sh1-img:hover {
+    content: url('sh2.png');
+        float: right;
+   margin-right: 20%;
+    margin-top: 5%;
+  z-index: 1;
+}
+
+.sh3 {
+  float:right;
+  
+   margin-right: -17%;
+    margin-top: 20%;
+}
+
+#sh3-img:hover {
+    content: url('sh4.png');
+        float:right;
+   margin-right: -17%;
+    margin-top: 20%;
+  z-index: 1;
+}

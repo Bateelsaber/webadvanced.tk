@@ -1,0 +1,113 @@
+body{
+    background-color: #f8f5f3;
+}
+
+div{
+    width: auto;
+    height: auto;
+    margin-top: 3%;
+    
+}
+
+.center{
+ text-align: center;
+}
+
+.alef {
+   position:absolute;
+   float: left;
+   margin-left: -52px;
+  z-index: 1;
+}
+
+#alef-img:hover {
+    content: url('alefg.png');
+       position:absolute;
+   float: left;
+   margin-left: -52px;
+  z-index: 1;
+}
+
+.d {
+   position:absolute;
+   float: left;
+   margin-left: -404px;
+   margin-top: 70px;
+  z-index: 1;
+}
+
+#d-img:hover {
+    content: url('dg.png');
+        position:absolute;
+   float: left;
+   margin-left: -404px;
+   margin-top: 70px;
+  z-index: 1;
+}
+
+.s {
+   position:absolute;
+   float: left;
+   margin-left: -723px;
+   margin-top: 116px;
+  z-index: 1;
+}
+
+#s-img:hover {
+    content: url('sg.png');
+    position: absolute;
+     float: left;
+   margin-left: -723px;
+   margin-top: 116px;
+  z-index: 1;
+}
+
+.t {
+   position:absolute;
+   float: left;
+   margin-left: -194px;
+   margin-top: 251px;
+  z-index: 1;
+}
+
+#t-img:hover {
+    content: url('tg.png');
+     position:absolute;
+   float: left;
+   margin-left: -194px;
+   margin-top: 251px;
+  z-index: 1;
+}
+.l {
+   position:absolute;
+   float: left;
+   margin-left: -415px;
+   margin-top: 253px;
+  z-index: 1;
+}
+
+#l-img:hover {
+    content: url('lg.png');
+     position:absolute;
+   float: left;
+   margin-left: -415px;
+   margin-top: 253px;
+  z-index: 1;
+}
+
+.y {
+   position:absolute;
+   float: left;
+   margin-left: -655.5px;
+   margin-top: 303px;
+  z-index: 1;
+}
+
+#y-img:hover {
+    content: url('yg.png');
+    position:absolute;
+   float: left;
+   margin-left: -655.5px;
+   margin-top: 303px;
+  z-index: 1;
+}
