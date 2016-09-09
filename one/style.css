@@ -169,13 +169,13 @@ h5{
   float:right;
   
    margin-right: -17%;
-    margin-top: 20%;
+    margin-top: 22%;
 }
 
 #sh3-img:hover {
     content: url('sh4.png');
         float:right;
    margin-right: -17%;
-    margin-top: 20%;
+    margin-top: 22%;
   z-index: 1;
 }
