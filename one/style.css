@@ -155,6 +155,7 @@ h5{
    float: right;
    margin-right: 20%;
     margin-top: 5%;
+     z-index: 1;
 }
 
 #sh1-img:hover {
@@ -168,14 +169,15 @@ h5{
 .sh3 {
   float:right;
   
-   margin-right: -17%;
+   margin-right: -23%;
     margin-top: 25%;
+    z-index: 1;
 }
 
 #sh3-img:hover {
     content: url('sh4.png');
         float:right;
-   margin-right: -17%;
+   margin-right: -23%;
     margin-top: 25%;
   z-index: 1;
 }
