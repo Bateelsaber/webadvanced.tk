@@ -1,0 +1,29 @@
+h1 {
+    color: #809390;
+    font-family: Helvetica; 
+    font-size: 45px;
+}
+
+
+div{
+    background-color: pink;
+    alignment-baseline: central;
+    text-align: center;
+    margin-left: -10px;
+    margin-right:-10px;
+ 
+}
+img{
+   text-align: center;
+   width: 480px;
+   height: auto;
+   margin-left: 0px;
+}
+
+p {
+    background-color: pink;
+    position: absolute;
+    width: 480px;
+    height: 480px;
+    text-align: center;
+}
