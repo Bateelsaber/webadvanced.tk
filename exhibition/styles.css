@@ -172,26 +172,29 @@ h2{
 }
 
 @media (min-width: 976px){
+    .topmargin{
+        margin-top: 250px;
+    }
     .text {
-     margin-top:523px;  
+     margin-top:623px;  
     }
      .text1 {
-     margin-top:503px;  
+     margin-top:403px;  
     }
      .text2 {
-     margin-top:520px;  
+     margin-top:620px;  
     }
      .text3 {
-     margin-top:523px;  
+     margin-top:623px;  
     }
      .text4 {
-     margin-top:523px;  
+     margin-top:623px;  
     }
 .text5 {
-     margin-top:508px;  
+     margin-top:608px;  
     }
     .text6 {
-     margin-top:508px;  
+     margin-top:608px;  
     }
   .image{
     background-image: url('images/richard480.jpg');
@@ -232,7 +235,7 @@ h2{
 
 @media (max-width: 976px) and (min-width : 725px){
     .topmargin {
-     margin-top:130px;
+     margin-top:280px;
     }
      .topmargin1 {
      margin-top:30px;
@@ -258,9 +261,7 @@ h2{
     .text6 {
      margin-top:20px;  
     }
-    .topmargin {
-     margin-top:100px;
-    }
+   
       .image{
     background-image: url('images/richard160.jpg');
 }
@@ -285,7 +286,7 @@ h2{
 
 @media (max-width: 725px){
      .topmargin {
-     margin-top:130px;
+     margin-top:280px;
     }
      .topmargin1 {
      margin-top:30px;

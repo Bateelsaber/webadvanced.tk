@@ -42,7 +42,11 @@ $(this).css("opacity", "0");
 $(this).css("opacity", "1");
 });
 
-
+$(".reds").on("tap",function(){
+$(this).css("opacity", "0");
+},function(){
+$(this).css("opacity", "1");
+});
 // ================================
 
 
