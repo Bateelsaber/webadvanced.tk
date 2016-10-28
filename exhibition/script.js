@@ -42,11 +42,6 @@ $(this).css("opacity", "0");
 $(this).css("opacity", "1");
 });
 
-$(".yellows").on("tap",function(){
-$(this).css("opacity", "0");
-},function(){
-$(this).css("opacity", "1");
-});
 // ================================
 
 
