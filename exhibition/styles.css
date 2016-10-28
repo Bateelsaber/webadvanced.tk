@@ -98,6 +98,7 @@ p{
 .yellow16, .yellow17,.yellow18, .yellow19, .yellow20,
 .yellow21, .yellow22,.yellow23, .yellow24, .yellow25, .yellows{
       background-color: #e5dcc1;
+       margin: 0px;
 }
 .green1, .green2, .green3, .green4, .green5,
 .green6, .green7, .green8, .green9, .green10,
@@ -105,6 +106,7 @@ p{
 .green16, .green17, .green18, .green19, .green20,
 .green21, .green22, .green23, .green24, .green25, .greens{
       background-color: #b8d3ca;
+       margin: 0px;
 }
 
 .purple1, .purple2, .purple3, .purple4, .purple5,
@@ -113,6 +115,7 @@ p{
 .purple16, .purple17, .purple18, .purple19, .purple20,
 .purple21, .purple22, .purple23, .purple24, .purple25, .purples{
       background-color: #cecadd;
+       margin: 0px;
 }
 
 .orange1, .orange2, .orange3, .orange4, .orange5,
@@ -121,6 +124,7 @@ p{
 .orange16, .orange17, .orange18, .orange19, .orange20,
 .orange21, .orange22, .orange23, .orange24, .orange25, .oranges{
       background-color: #efd6bb;
+       margin: 0px;
 }
 
 .blue1, .blue2, .blue3, .blue4, .blue5,
@@ -129,6 +133,7 @@ p{
 .blue16, .blue17, .blue18, .blue19, .blue20,
 .blue21, .blue22, .blue23, .blue24, .blue25, .blues{
       background-color: #cadce8;
+       margin: 0px;
 }
 
 .red1, .red2, .red3, .red4, .red5,
@@ -137,6 +142,7 @@ p{
 .red16, .red17, .red18, .red19, .red20,
 .red21, .red22, .red23, .red24, .red25, .reds{
       background-color: #e5c3c3;
+       margin: 0px;
 }
 
 
