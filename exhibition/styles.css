@@ -1,0 +1,336 @@
+
+body{
+    margin: 0
+}
+div{
+    margin-bottom: 20px;
+    margin-left: 5%;
+    float: left;
+    position: relative;
+}
+
+.text{
+    width: 220px;
+    height: 50px;
+    float: left;
+    position: relative;
+}
+
+.text1{
+    width: 230px;
+    height: 50px;
+    float: left;
+    position: relative;
+}
+.text2{
+    width: 230px;
+    height: 50px;
+    float: left;
+    position: relative;
+}
+.text3{
+    width: 230px;
+    height: 50px;
+    float: left;
+    position: relative;
+}
+.text4{
+    width: 230px;
+    height: 50px;
+    float: left;
+    position: relative;
+}
+.text5{
+    width: 230px;
+    height: 50px;
+    float: left;
+    position: relative;
+}
+.text6{
+    width: 230px;
+    height: 50px;
+    float: left;
+    position: relative;
+}
+.text{
+    width: 230px;
+    height: 50px;
+    float: left;
+    position: relative;
+}
+
+.divsize {
+     background-image: url('images/frame.jpg');
+      position: relative;
+    width: 650px;
+    height: 650px;
+}
+
+.psize{
+    position: absolute;
+    z-index: 1;
+     width: 480px;
+    height: 480px; 
+   margin-left: 80px;
+    margin-top: 83px;
+   border-style: inset;
+}
+
+
+p{
+    width: 96px;
+    height: 96px;
+    float: left;
+    margin: 0px;
+}
+
+.pink1, .pink2, .pink3, .pink4, .pink5,
+.pink6, .pink7, .pink8, .pink9, .pink10, 
+.pink11, .pink12, .pink13, .pink14, .pink15,
+.pink16, .pink17, .pink18, .pink19, .pink20,
+.pink21, .pink22, .pink23, .pink24, .pink25, .pinks{
+      background-color: #d8abba;
+     
+}
+.yellow1, .yellow2,.yellow3, .yellow4, .yellow5,
+.yellow6, .yellow7,.yellow8, .yellow9, .yellow10,
+.yellow11, .yellow12,.yellow13, .yellow14, .yellow15,
+.yellow16, .yellow17,.yellow18, .yellow19, .yellow20,
+.yellow21, .yellow22,.yellow23, .yellow24, .yellow25, .yellows{
+      background-color: #e5dcc1;
+}
+.green1, .green2, .green3, .green4, .green5,
+.green6, .green7, .green8, .green9, .green10,
+.green11, .green12, .green13, .green14, .green15,
+.green16, .green17, .green18, .green19, .green20,
+.green21, .green22, .green23, .green24, .green25, .greens{
+      background-color: #b8d3ca;
+}
+
+.purple1, .purple2, .purple3, .purple4, .purple5,
+.purple6, .purple7, .purple8, .purple9, .purple10,
+.purple11, .purple12, .purple13, .purple14, .purple15,
+.purple16, .purple17, .purple18, .purple19, .purple20,
+.purple21, .purple22, .purple23, .purple24, .purple25, .purples{
+      background-color: #cecadd;
+}
+
+.orange1, .orange2, .orange3, .orange4, .orange5,
+.orange6, .orange7, .orange8, .orange9, .orange10,
+.orange11, .orange12, .orange13, .orange14, .orange15,
+.orange16, .orange17, .orange18, .orange19, .orange20,
+.orange21, .orange22, .orange23, .orange24, .orange25, .oranges{
+      background-color: #efd6bb;
+}
+
+.blue1, .blue2, .blue3, .blue4, .blue5,
+.blue6, .blue7, .blue8, .blue9, .blue10,
+.blue11, .blue12, .blue13, .blue14, .blue15,
+.blue16, .blue17, .blue18, .blue19, .blue20,
+.blue21, .blue22, .blue23, .blue24, .blue25, .blues{
+      background-color: #cadce8;
+}
+
+.red1, .red2, .red3, .red4, .red5,
+.red6, .red7, .red8, .red9, .red10,
+.red11, .red12, .red13, .red14, .red15,
+.red16, .red17, .red18, .red19, .red20,
+.red21, .red22, .red23, .red24, .red25, .reds{
+      background-color: #e5c3c3;
+}
+
+
+img{
+    z-index: 1;
+    margin-left: 80px;
+    margin-top: 83px;
+    position: absolute;
+}
+
+
+h1{
+    font-family: helvetica;
+    color: #809390 ;
+    font-size: medium;
+    letter-spacing: 0.2px;
+}
+.oblique {
+    font-style: oblique;
+    
+}
+.weight{
+    font-weight: normal;
+    
+}
+
+h2{
+    font-family: helvetica;
+    color: #809390 ;
+    font-size: small;
+    font-weight: normal;
+    letter-spacing: 0.2px;
+}
+
+@media (min-width: 976px){
+    .text {
+     margin-top:523px;  
+    }
+     .text1 {
+     margin-top:503px;  
+    }
+     .text2 {
+     margin-top:520px;  
+    }
+     .text3 {
+     margin-top:523px;  
+    }
+     .text4 {
+     margin-top:523px;  
+    }
+.text5 {
+     margin-top:508px;  
+    }
+    .text6 {
+     margin-top:508px;  
+    }
+  .image{
+    background-image: url('images/richard480.jpg');
+    width: 480px;
+    height: 480px;
+}
+  .image1{
+    background-image: url('images/gregory480.jpg');
+    width: 480px;
+    height: 480px;
+}
+  .image2{
+    background-image: url('images/georges480.jpg');
+    width: 480px;
+    height: 480px;
+}
+  .image3{
+    background-image: url('images/Tree480.jpg');
+    width: 480px;
+    height: 480px;
+}
+  .image4{
+    background-image: url('images/Individuals480.jpg');
+    width: 480px;
+    height: 480px;
+}
+  .image5{
+    background-image: url('images/Constellation480.jpg');
+    width: 480px;
+    height: 480px;
+}
+  .image6{
+    background-image: url('images/Landscape480.jpg');
+    width: 480px;
+    height: 480px;
+}
+}
+
+@media (max-width: 976px) and (min-width : 725px){
+    .topmargin {
+     margin-top:130px;
+    }
+     .topmargin1 {
+     margin-top:30px;
+    }
+    .text {
+     margin-top:20px;  
+    }
+     .text1 {
+     margin-top:20px;  
+    }
+     .text2 {
+     margin-top:20px;  
+    }
+     .text3 {
+     margin-top:20px;  
+    }
+     .text4 {
+     margin-top:20px;  
+    }
+    .text5 {
+     margin-top:0px;  
+    }
+    .text6 {
+     margin-top:20px;  
+    }
+    .topmargin {
+     margin-top:100px;
+    }
+      .image{
+    background-image: url('images/richard160.jpg');
+}
+    .image1{
+    background-image: url('images/gregory160.jpg');
+}    .image2{
+    background-image: url('images/georges160.jpg');
+} .image3{
+    background-image: url('images/Tree160.jpg');
+}
+
+.image4{
+    background-image: url('images/Individuals160.jpg');
+}
+.image5{
+    background-image: url('images/Constellation160.jpg');
+}
+.image6{
+    background-image: url('images/Landscape160.jpg');
+}
+}
+
+@media (max-width: 725px){
+     .topmargin {
+     margin-top:130px;
+    }
+     .topmargin1 {
+     margin-top:30px;
+    }
+      .text {
+     margin-top:20px;  
+    }
+     .text1 {
+     margin-top:20px;  
+    }
+     .text2 {
+     margin-top:20px;  
+    }
+     .text3 {
+     margin-top:20px;  
+    }
+     .text4 {
+     margin-top:20px;  
+    }
+     .text5 {
+     margin-top:20px;  
+    }
+    .text6 {
+     margin-top:20px;  
+    }
+
+      .image{
+    background-image: url('images/richard96.jpg');
+}
+      .image1{
+    background-image: url('images/gregory96.jpg');
+}
+      .image2{
+    background-image: url('images/georges96.jpg');
+}
+ .image3{
+    background-image: url('images/Tree96.jpg');
+}
+ .image4{
+    background-image: url('images/Individuals96.jpg');
+}
+ .image5{
+    background-image: url('images/Constellation96.jpg');
+}
+ .image6{
+    background-image: url('images/Landscape96.jpg');
+}
+}

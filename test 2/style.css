@@ -1,0 +1,165 @@
+html,
+body {
+    margin: 0;
+}
+
+
+canvas[resize] {
+    width: 480px;
+    height: 480px;
+}
+div{
+    margin-bottom: 20px;
+    margin-left: 5%;
+    float: left;
+    position: relative;
+}
+.text{
+    width: 220px;
+    height: 50px;
+    float: left;
+    position: relative;
+}
+
+.text1{
+    width: 220px;
+    height: 50px;
+    float: left;
+    position: relative;
+}
+.text2{
+    width: 220px;
+    height: 50px;
+    float: left;
+    position: relative;
+}
+
+.divsize {
+     background-image: url('frame.jpg');
+      position: relative;
+    width: 650px;
+    height: 650px;
+}
+
+.psize{
+    position: absolute;
+    z-index: 1;
+     width: 480px;
+    height: 480px; 
+   margin-left: 80px;
+    margin-top: 83px;
+}
+
+p{
+    width: 96px;
+    height: 96px;
+    float: left;
+    margin: 0px;
+}
+
+.pink1, .pink2, .pink3, .pink4, .pink5,
+.pink6, .pink7, .pink8, .pink9, .pink10, 
+.pink11, .pink12, .pink13, .pink14, .pink15,
+.pink16, .pink17, .pink18, .pink19, .pink20,
+.pink21, .pink22, .pink23, .pink24, .pink25, .pinks{
+      background-color: #d8abba;
+     
+}
+.yellow1, .yellow2,.yellow3, .yellow4, .yellow5,
+.yellow6, .yellow7,.yellow8, .yellow9, .yellow10,
+.yellow11, .yellow12,.yellow13, .yellow14, .yellow15,
+.yellow16, .yellow17,.yellow18, .yellow19, .yellow20,
+.yellow21, .yellow22,.yellow23, .yellow24, .yellow25{
+      background-color: #e5dcc1;
+}
+.green1, .green2, .green3, .green4, .green5,
+.green6, .green7, .green8, .green9, .green10,
+.green11, .green12, .green13, .green14, .green15,
+.green16, .green17, .green18, .green19, .green20,
+.green21, .green22, .green23, .green24, .green25{
+      background-color: #b8d3ca;
+}
+
+
+img{
+    z-index: 1;
+    margin-left: 80px;
+    margin-top: 83px;
+    position: absolute;
+}
+
+
+h1{
+    font-family: helvetica;
+    color: #809390 ;
+    font-size: medium;
+    letter-spacing: 0.2px;
+}
+.oblique {
+    font-style: oblique;
+    
+}
+.weight{
+    font-weight: normal;
+    
+}
+
+h2{
+    font-family: helvetica;
+    color: #809390 ;
+    font-size: small;
+    font-weight: normal;
+    letter-spacing: 0.2px;
+}
+
+@media (min-width: 956px){
+    .text {
+     margin-top:523px; 
+       
+    }
+     .text1 {
+     margin-top:503px;
+         width: 220px;
+    height: 50px;
+    float: left;
+    position: relative;
+    }
+     .text2 {
+     margin-top:520px;  
+    }
+
+
+}
+
+@media (max-width: 966px) and (min-width : 725px){
+    .text {
+     margin-top:20px;  
+    }
+     .text1 {
+     margin-top:20px;  
+    }
+     .text2 {
+     margin-top:20px;  
+    }
+    .topmargin {
+     margin-top:100px;
+    }
+
+}
+
+@media (max-width: 725px){
+     .topmargin {
+     margin-top:130px;
+    }
+      .text {
+     margin-top:20px;  
+    }
+     .text1 {
+     margin-top:20px;  
+    }
+     .text2 {
+     margin-top:20px;  
+    }
+
+
+}
