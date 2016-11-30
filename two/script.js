@@ -11,11 +11,11 @@ for (var i=0; i<20; i++){
     setTimeout(function(){
 
 var lines= "";
-for (var s=0; s<700; s++){
+for (var s=0; s<100; s++){
     if (Math.random()*4<2){
-        lines += "_._!";
+        lines += "$$";
     }else{
-        lines += "_!_.";
+        lines += "!!";
     }
 }
 
@@ -23,6 +23,6 @@ for (var s=0; s<700; s++){
 console.log(lines);
 
     }, timer);
-    timer += 70;
+    timer += 10;
     counter++;
 }
