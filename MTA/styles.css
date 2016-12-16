@@ -1,0 +1,262 @@
+body, html{
+    width: 100%;
+    height:100%;
+    margin: 0;
+}
+.maindiv1, .maindiv2, .maindiv3, .maindiv4, .maindiv5,
+.maindiv6, .maindiv7, .maindiv8, .maindiv9{
+    width: 11.1111111%;
+    height: 100%;
+    float: left;
+     -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+}
+
+.squares1, .squares2, .squares3, .squares4, .squares5, 
+.squares6, .squares7, .squares8, .squares9 {
+  width:100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.color1, .color2, .color3, .color4, .color5,
+.color6, .color7, .color8, .color9 {
+    width:100%;
+    height: 100%;
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+    opacity: 0;
+}
+
+.square0, .square1, .square2, .square3,.square4, .square5,
+.square6, .square7, .square8, .square9, .square10,
+.square11, .square12, .square13, .square14, .square15,
+.square16, .square17, .square18,.square19, .square20,
+.square21, .square22, .square23, .square24, .square25,
+.square26, .square27, .square28, .square29, .square30,
+.square31, .square32, .square33, .square34, .square35,
+.square36, .square37, .square38, .square39, .square40, 
+.square41, .square42, .square43, .square44, .square45, 
+.square46, .square47, .square48, .square49, .square50, 
+.square51, .square52, .square53, .square54, .square55, 
+.square56, .square57, .square58, .square59, .square60, 
+.square61, .square62, .square63, .square64, .square65, 
+.square66, .square67, .square68, .square69, .square70, 
+.square71, .square72, .square73, .square74, .square75, 
+.square76, .square77, .square78, .square79, .square80, 
+.square81, .square82, .square83, .square84, .square85, 
+.square86, .square87, .square88, .square89, .square90, 
+.square91, .square92, .square93, .square94, .square95, 
+.square96, .square97, .square98, .square99, .square100, 
+.one0, .one1, .one2, .one3,.one4, .one5,
+.one6, .one7, .one8, .one9, .one10,
+.one11, .one12, .one13, .one14, .one15,
+.one16, .one17, .one18,.one19, .one20,
+.one21, .one22, .one23, .one24, .one25,
+.one26, .one27, .one28, .one29, .one30,
+.one31, .one32, .one33, .one34, .one35,
+.one36, .one37, .one38, .one39, .one40, 
+.one41, .one42, .one43, .one44, .one45, 
+.one46, .one47, .one48, .one49, .one50, 
+.one51, .one52, .one53, .one54, .one55, 
+.one56, .one57, .one58, .one59, .one60, 
+.one61, .one62, .one63, .one64, .one65, 
+.one66, .one67, .one68, .one69, .one70, 
+.one71, .one72, .one73, .one74, .one75, 
+.one76, .one77, .one78, .one79, .one80, 
+.one81, .one82, .one83, .one84, .one85, 
+.one86, .one87, .one88, .one89, .one90, 
+.one91, .one92, .one93, .one94, .one95, 
+.one96, .one97, .one98, .one99, .one100, 
+.two0, .two1, .two2, .two3,.two4, .two5,
+.two6, .two7, .two8, .two9, .two10,
+.two11, .two12, .two13, .two14, .two15,
+.two16, .two17, .two18,.two19, .two20,
+.two21, .two22, .two23, .two24, .two25,
+.two26, .two27, .two28, .two29, .two30,
+.two31, .two32, .two33, .two34, .two35,
+.two36, .two37, .two38, .two39, .two40, 
+.two41, .two42, .two43, .two44, .two45, 
+.two46, .two47, .two48, .two49, .two50, 
+.two51, .two52, .two53, .two54, .two55, 
+.two56, .two57, .two58, .two59, .two60, 
+.two61, .two62, .two63, .two64, .two65, 
+.two66, .two67, .two68, .two69, .two70, 
+.two71, .two72, .two73, .two74, .two75, 
+.two76, .two77, .two78, .two79, .two80, 
+.two81, .two82, .two83, .two84, .two85, 
+.two86, .two87, .two88, .two89, .two90, 
+.two91, .two92, .two93, .two94, .two95, 
+.two96, .two97, .two98, .two99, .two100, 
+.three0, .three1, .three2, .three3,.three4, .three5,
+.three6, .three7, .three8, .three9, .three10,
+.three11, .three12, .three13, .three14, .three15,
+.three16, .three17, .three18,.three19, .three20,
+.three21, .three22, .three23, .three24, .three25,
+.three26, .three27, .three28, .three29, .three30,
+.three31, .three32, .three33, .three34, .three35,
+.three36, .three37, .three38, .three39, .three40, 
+.three41, .three42, .three43, .three44, .three45, 
+.three46, .three47, .three48, .three49, .three50, 
+.three51, .three52, .three53, .three54, .three55, 
+.three56, .three57, .three58, .three59, .three60, 
+.three61, .three62, .three63, .three64, .three65, 
+.three66, .three67, .three68, .three69, .three70, 
+.three71, .three72, .three73, .three74, .three75, 
+.three76, .three77, .three78, .three79, .three80, 
+.three81, .three82, .three83, .three84, .three85, 
+.three86, .three87, .three88, .three89, .three90, 
+.three91, .three92, .three93, .three94, .three95, 
+.three96, .three97, .three98, .three99, .three100,
+.four0, .four1, .four2, .four3,.four4, .four5,
+.four6, .four7, .four8, .four9, .four10,
+.four11, .four12, .four13, .four14, .four15,
+.four16, .four17, .four18,.four19, .four20,
+.four21, .four22, .four23, .four24, .four25,
+.four26, .four27, .four28, .four29, .four30,
+.four31, .four32, .four33, .four34, .four35,
+.four36, .four37, .four38, .four39, .four40, 
+.four41, .four42, .four43, .four44, .four45, 
+.four46, .four47, .four48, .four49, .four50, 
+.four51, .four52, .four53, .four54, .four55, 
+.four56, .four57, .four58, .four59, .four60, 
+.four61, .four62, .four63, .four64, .four65, 
+.four66, .four67, .four68, .four69, .four70, 
+.four71, .four72, .four73, .four74, .four75, 
+.four76, .four77, .four78, .four79, .four80, 
+.four81, .four82, .four83, .four84, .four85, 
+.four86, .four87, .four88, .four89, .four90, 
+.four91, .four92, .four93, .four94, .four95, 
+.four96, .four97, .four98, .four99, .four100, 
+.five0, .five1, .five2, .five3,.five4, .five5,
+.five6, .five7, .five8, .five9, .five10,
+.five11, .five12, .five13, .five14, .five15,
+.five16, .five17, .five18,.five19, .five20,
+.five21, .five22, .five23, .five24, .five25,
+.five26, .five27, .five28, .five29, .five30,
+.five31, .five32, .five33, .five34, .five35,
+.five36, .five37, .five38, .five39, .five40, 
+.five41, .five42, .five43, .five44, .five45, 
+.five46, .five47, .five48, .five49, .five50, 
+.five51, .five52, .five53, .five54, .five55, 
+.five56, .five57, .five58, .five59, .five60, 
+.five61, .five62, .five63, .five64, .five65, 
+.five66, .five67, .five68, .five69, .five70, 
+.five71, .five72, .five73, .five74, .five75, 
+.five76, .five77, .five78, .five79, .five80, 
+.five81, .five82, .five83, .five84, .five85, 
+.five86, .five87, .five88, .five89, .five90, 
+.five91, .five92, .five93, .five94, .five95, 
+.five96, .five97, .five98, .five99, .five100, 
+.six0, .six1, .six2, .six3,.six4, .six5,
+.six6, .six7, .six8, .six9, .six10,
+.six11, .six12, .six13, .six14, .six15,
+.six16, .six17, .six18,.six19, .six20,
+.six21, .six22, .six23, .six24, .six25,
+.six26, .six27, .six28, .six29, .six30,
+.six31, .six32, .six33, .six34, .six35,
+.six36, .six37, .six38, .six39, .six40, 
+.six41, .six42, .six43, .six44, .six45, 
+.six46, .six47, .six48, .six49, .six50, 
+.six51, .six52, .six53, .six54, .six55, 
+.six56, .six57, .six58, .six59, .six60, 
+.six61, .six62, .six63, .six64, .six65, 
+.six66, .six67, .six68, .six69, .six70, 
+.six71, .six72, .six73, .six74, .six75, 
+.six76, .six77, .six78, .six79, .six80, 
+.six81, .six82, .six83, .six84, .six85, 
+.six86, .six87, .six88, .six89, .six90, 
+.six91, .six92, .six93, .six94, .six95, 
+.six96, .six97, .six98, .six99, .six100, 
+.seven0, .seven1, .seven2, .seven3,.seven4, .seven5,
+.seven6, .seven7, .seven8, .seven9, .seven10,
+.seven11, .seven12, .seven13, .seven14, .seven15,
+.seven16, .seven17, .seven18,.seven19, .seven20,
+.seven21, .seven22, .seven23, .seven24, .seven25,
+.seven26, .seven27, .seven28, .seven29, .seven30,
+.seven31, .seven32, .seven33, .seven34, .seven35,
+.seven36, .seven37, .seven38, .seven39, .seven40, 
+.seven41, .seven42, .seven43, .seven44, .seven45, 
+.seven46, .seven47, .seven48, .seven49, .seven50, 
+.seven51, .seven52, .seven53, .seven54, .seven55, 
+.seven56, .seven57, .seven58, .seven59, .seven60, 
+.seven61, .seven62, .seven63, .seven64, .seven65, 
+.seven66, .seven67, .seven68, .seven69, .seven70, 
+.seven71, .seven72, .seven73, .seven74, .seven75, 
+.seven76, .seven77, .seven78, .seven79, .seven80, 
+.seven81, .seven82, .seven83, .seven84, .seven85, 
+.seven86, .seven87, .seven88, .seven89, .seven90, 
+.seven91, .seven92, .seven93, .seven94, .seven95, 
+.seven96, .seven97, .seven98, .seven99, .seven100,
+.eight0, .eight1, .eight2, .eight3,.eight4, .eight5,
+.eight6, .eight7, .eight8, .eight9, .eight10,
+.eight11, .eight12, .eight13, .eight14, .eight15,
+.eight16, .eight17, .eight18,.eight19, .eight20,
+.eight21, .eight22, .eight23, .eight24, .eight25,
+.eight26, .eight27, .eight28, .eight29, .eight30,
+.eight31, .eight32, .eight33, .eight34, .eight35,
+.eight36, .eight37, .eight38, .eight39, .eight40, 
+.eight41, .eight42, .eight43, .eight44, .eight45, 
+.eight46, .eight47, .eight48, .eight49, .eight50, 
+.eight51, .eight52, .eight53, .eight54, .eight55, 
+.eight56, .eight57, .eight58, .eight59, .eight60, 
+.eight61, .eight62, .eight63, .eight64, .eight65, 
+.eight66, .eight67, .eight68, .eight69, .eight70, 
+.eight71, .eight72, .eight73, .eight74, .eight75, 
+.eight76, .eight77, .eight78, .eight79, .eight80, 
+.eight81, .eight82, .eight83, .eight84, .eight85, 
+.eight86, .eight87, .eight88, .eight89, .eight90, 
+.eight91, .eight92, .eight93, .eight94, .eight95, 
+.eight96, .eight97, .eight98, .eight99, .eight100{
+    width: 20%;
+    min-height: 5%;
+    max-height: 5%;
+    position: relative;
+    float: right;
+    bottom: 0;
+    display: block;
+
+    
+}
+
+
+.stationname {
+    position: absolute;
+    z-index: 1;
+    width: 80vh;
+    height: auto;
+    top: 20px;
+    left: 20px;
+}
+
+.time1, .time2, .time3, .time4, .time5, 
+.time6, .time7, .time8, .time9 {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+    top: 20px;
+    alignment-baseline: central;
+    text-align: center;
+      -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+}
+
+h1{
+    font-family: Helvetica Neue;
+    font-size: 40px;
+    letter-spacing: -0.3px;
+    margin: 0;
+    display: none;
+}
+
+h2{
+    font-family: Helvetica Neue;
+    font-size: 20px;
+    letter-spacing: -0.3px;
+    margin: 0;
+    display: none;
+    color: white;
+    text-shadow: 0px 0.8px 0.8px rgba(0, 0, 0, 0.4);
+}
